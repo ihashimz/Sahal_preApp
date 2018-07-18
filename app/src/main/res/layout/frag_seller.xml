@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/pass_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="كلمة المرور"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/pass_text"
+            android:layout_width="300dp"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pass_view" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp">
+
+        <TextView
+            android:id="@+id/email_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="البريد الالكتروني"
+            android:textSize="16sp" />
+
+        <EditText
+
+            android:id="@+id/email_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_view" />
+
+    </RelativeLayout>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btn_do"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="167dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="تسجيل جديد" />
+
+    <TextView
+        android:id="@+id/myLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+    <!-- TODO: Update blank fragment layout -->
+
+</RelativeLayout>

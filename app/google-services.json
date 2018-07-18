@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "241184952928",
+    "firebase_url": "https://sahalpreapp.firebaseio.com",
+    "project_id": "sahalpreapp",
+    "storage_bucket": "sahalpreapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241184952928:android:f8ad74ea1ac4ab60",
+        "android_client_info": {
+          "package_name": "sahalpreapp.sahal_preapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241184952928-c664ki7i0o271b11h06hd4j1abjnbcsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sahalpreapp.sahal_preapp",
+            "certificate_hash": "d665e51d2c223e6d54959b2118733bef9846b86f"
+          }
+        },
+        {
+          "client_id": "241184952928-54gfs16kvtt23946oaa8vihh0b6ojiru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqMclQBktTdA-lWp-dgYj5gsciA_rNGNw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241184952928-54gfs16kvtt23946oaa8vihh0b6ojiru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
